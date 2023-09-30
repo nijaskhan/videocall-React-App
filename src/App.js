@@ -55,20 +55,20 @@ function App() {
                 justifyContent="center"
               >
                 <span style={{ display: 'block' }}>
-                  <Image src={icon} style={{ paddingTop: '24px', width: '50px', height: '50px' }} alt="Your Image" />
-                  <Image src={icon1} style={{ paddingTop: '24px', width: '50px', height: '50px' }} alt="Your Image" />
-                  <span style={{ display: 'block', borderRadius: '50%', backgroundColor: '#19A6F4', width: '50px', height: '50px', display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '24px' }}>
-                    <Image src={videoIcon} alt="Your Image" />
+                  <Image src={icon} style={{ paddingTop: '24px', width: '50px', height: '50px' }} alt="icon" />
+                  <Image src={icon1} style={{ paddingTop: '24px', width: '50px', height: '50px' }} alt="icon" />
+                  <span style={{ borderRadius: '50%', backgroundColor: '#19A6F4', width: '50px', height: '50px', display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '24px' }}>
+                    <Image src={videoIcon} alt="icon" />
                   </span>
-                  <Image src={icon3} style={{ paddingTop: '24px', width: '50px', height: '50px' }} alt="Your Image" />
-                  <Image src={calenderIcon} style={{ paddingTop: '24px', width: '50px', height: '50px' }} alt="Your Image" />
-                  <Image src={settingsIcon} style={{ paddingTop: '24px', width: '50px', height: '50px' }} alt="Your Image" />
+                  <Image src={icon3} style={{ paddingTop: '24px', width: '50px', height: '50px' }} alt="icon" />
+                  <Image src={calenderIcon} style={{ paddingTop: '24px', width: '50px', height: '50px' }} alt="icon" />
+                  <Image src={settingsIcon} style={{ paddingTop: '24px', width: '50px', height: '50px' }} alt="icon" />
                 </span>
 
               </GridItem>
             </Grid>
           </GridItem>
-          
+
           <GridItem rowSpan={2} colSpan={isRightPanelThanLg ? '13' : '18'} bg='papayawhip' borderRadius={12} />
           <GridItem display={isRightPanelThanLg ? "block" : "none"} colSpan={isLargerThanLg ? '4' : '5'} bg='papayawhip' borderRadius={12} />
           <GridItem display={isRightPanelThanLg ? "block" : "none"} colSpan={isLargerThanLg ? '4' : '5'} bg='papayawhip' borderRadius={12} />
