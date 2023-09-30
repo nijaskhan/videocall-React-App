@@ -16,6 +16,7 @@ function App() {
   return (
     <>
       <Box textAlign="center" fontSize="xl">
+
         <Grid
           h='100vh'
           templateRows='repeat(2, 1fr)'
@@ -67,13 +68,11 @@ function App() {
               </GridItem>
             </Grid>
           </GridItem>
+          
           <GridItem rowSpan={2} colSpan={isRightPanelThanLg ? '13' : '18'} bg='papayawhip' borderRadius={12} />
           <GridItem display={isRightPanelThanLg ? "block" : "none"} colSpan={isLargerThanLg ? '4' : '5'} bg='papayawhip' borderRadius={12} />
           <GridItem display={isRightPanelThanLg ? "block" : "none"} colSpan={isLargerThanLg ? '4' : '5'} bg='papayawhip' borderRadius={12} />
         </Grid>
-
-
-
 
       </Box>
     </>
