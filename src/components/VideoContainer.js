@@ -12,12 +12,6 @@ const VideoContainer = ({ isRightPanelThanLg, isLargerThanLg }) => {
                 borderRadius={12}
             >
                 {/* video Iframe or videochat live stream goes here... */}
-                <iframe
-                    src="https://www.youtube.com/embed/cWDJoK8zw58"
-                    height={'100%'}
-                    width={'100%'}
-                    title='videoStream'
-                />
             </GridItem>
 
             {/* RightSide-panel */}
